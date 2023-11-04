@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="bg-slate-950">
+    <header>
+      <div
+        class="container flex justify-between items-center mx-auto max-w-6xl pt-5 px-4 md:px-0"
+      >
+        <div class="w-8 font-serif text-3xl font-bold text-white">
+          VapingHub
+        </div>
+        <nav>
+          <ul
+            class="md:flex hidden md:justify-between space-x-6 text-white text-xl"
+          >
+            <li class="group">
+              <a href="index.html" class="hover:text-yellow-700">HOME</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-yellow-700"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="products.html" class="hover:text-yellow-700">PRODUCTS</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-yellow-700"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="specification.html" class="hover:text-yellow-700"
+                >SPECIFICATION</a
+              >
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-yellow-700"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="features.html" class="hover:text-yellow-700">FEATURES</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-yellow-700"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="about.html" class="hover:text-yellow-700">ABOUT US</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-yellow-700"
+              ></div>
+            </li>
+          </ul>
+          <div class="md:hidden">
+            <button
+              id="menu-btn"
+              type="button"
+              class="z-40 block hamburger md:hidden outline-none duration-200"
+            >
+              <span class="hamburger-top"></span
+              ><span class="hamburger-middle"></span
+              ><span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <div
+          id="menu"
+          class="absolute top-0 bottom-0 left-0 flex-col hidden self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black md:hidden opacity-95"
+        >
+          <a href="index.html" class="hover:text-yellow-700">HOME</a>
+          <a href="products.html" class="hover:text-yellow-700">PRODUCTS</a>
+          <a href="specification.html" class="hover:text-yellow-700"
+            >SPECIFICATION</a
+          >
+          <a href="features.html" class="hover:text-yellow-700">FEATURES</a>
+          <a href="about.html" class="hover:text-yellow-700">ABOUT US</a>
+        </div>
+      </div>
+    </header>
+    <main id="hero">
+      <div
+        class="flex flex-col justify-center items-center space-y-10 mx-auto mt-10"
+      >
+        <h1 class="text-3xl md:text-4xl text-white border border-white p-4">
+          VAPE'S HUB
+        </h1>
+        <div>
+          <img src="./img/smoke.jpeg" class="rounded-sm md:h-80 h-64" />
+        </div>
+      </div>
+    </main>
+    <footer id="contact">
+      <div
+        class="text-xl text-white text-center tracking-10 flex flex-col mt-10 md:flex-row md:justify-between max-w-6xl mx-auto md:pt-10 md:pb-10"
+      >
+        <h2>© 2023 VapingHub. All rights reserved.</h2>
+        <h2>Contact Us: +63 9755773221</h2>
+      </div>
+    </footer>
+  </body>
+</html>
